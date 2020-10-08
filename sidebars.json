@@ -1,0 +1,18 @@
+{
+  "docs": {
+    "Introduction": [
+      "introduction/introduction",
+      "introduction/motivation",
+      "introduction/personal-preferences",
+      "introduction/terminology"
+    ],
+    "Features": [
+      "features/settings",
+      "features/wallet"
+    ],
+    "Other": [
+      "other/faq"
+    ]
+  }
+}
+
