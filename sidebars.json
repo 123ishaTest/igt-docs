@@ -2,9 +2,7 @@
   "docs": {
     "Introduction": [
       "introduction/introduction",
-      "introduction/motivation",
-      "introduction/personal-preferences",
-      "introduction/terminology"
+      "introduction/project-setup"
     ],
     "Features": [
       "features/settings",

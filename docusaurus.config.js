@@ -8,6 +8,9 @@ module.exports = {
     organizationName: '123ishaTest',
     projectName: 'Incremental Game Template',
     themeConfig: {
+        prism: {
+            theme: require('prism-react-renderer/themes/dracula'),
+        },
         navbar: {
             title: 'Incremental Game Template',
             logo: {
@@ -88,9 +91,7 @@ module.exports = {
     ],
     plugins: [
         ['@docusaurus/plugin-ideal-image',
-            {
-
-            },
+            {},
         ]
     ],
 };

@@ -9,21 +9,23 @@ Hello interested reader. Welcome to the Incremental Game Template.
 My name is Isha. I have been developing incremental games since 2014. Most of them bad, some of them good.
 
 Over the years I have developed certain features over and over for different games.
-Stuff like upgrades, currencies and such.
+Currencies, Upgrades, Statistics and such.
 This project aims to develop the 'final' version of these features, such that everyone can take advantage of them.
 
 
 ## What is this project
 To gain the most out of this project, it is important to know what it is about exactly.
+The idea is to copy some code seen here and apply it to your own project.
+You probably need to modify it a bit, especially if you don't use the exact same setup.
 
 #### It is
-- A collection of useful scripts that will help you get start very quickly
-- Inspiration on how to implement things every game needs
+- A collection of useful scripts that will help you develop more quickly
+- Inspiration for how to implement features every game needs
+- Pretty neat
 
 #### It is not
-- A tutorial on how to develop games
-- A game engine
-- A library
+- A tutorial on how to develop webgames
+- A game engine or a library
 - A guarantee for a good game. You still need to create interesting mechanics yourself :)
 
 

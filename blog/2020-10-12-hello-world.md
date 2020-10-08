@@ -8,4 +8,6 @@ author_image_url: https://avatars3.githubusercontent.com/u/9715314?s=460&u=3448b
 
 Welcome to my website.
 
-I've decided to create this template mostly for myself. I'm sharing it in the hope that some people find it useful as wel.
+I've decided to create this template mostly for myself. I'm sharing it in the hope that some people find it useful as well.
+
+As I'm still fleshing out the details, feedback is very welcome :)
