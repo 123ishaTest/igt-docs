@@ -1,16 +1,32 @@
 {
-  "docs": {
-    "Introduction": [
-      "introduction/introduction",
-      "introduction/project-setup"
-    ],
-    "Features": [
-      "features/settings",
-      "features/wallet"
-    ],
-    "Other": [
-      "other/faq"
-    ]
-  }
+  "docs": [
+    {
+      "type": "category",
+      "label": "Introduction",
+      "collapsed": false,
+      "items": [
+        "introduction/introduction",
+        "introduction/project-structure"
+      ]
+    },
+    {
+      "type": "category",
+      "label": "Features",
+      "collapsed": false,
+      "items": [
+        "features/settings",
+        "features/wallet"
+      ]
+    },
+    {
+    "type": "category",
+      "label": "Other",
+      "collapsed": false,
+      "items": [
+        "other/faq",
+        "other/roadmap"
+      ]
+    }
+  ]
 }
 
