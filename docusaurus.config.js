@@ -32,7 +32,7 @@ module.exports = {
                 },
                 {to: 'blog', label: 'Blog', position: 'left'},
                 {
-                    href: 'https://github.com/Ishadijcks/incremental-game-template',
+                    href: 'https://github.com/123ishaTest/incremental-game-template',
                     label: 'GitHub',
                     position: 'right',
                 },
@@ -70,7 +70,7 @@ module.exports = {
                         },
                         {
                             label: 'GitHub',
-                            href: 'https://github.com/Ishadijcks/incremental-game-template',
+                            href: 'https://github.com/123ishaTest/incremental-game-template',
                         },
                     ],
                 },
