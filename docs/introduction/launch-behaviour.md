@@ -28,5 +28,5 @@ export class App {
 }
 ``` 
 
-## Links
+## See also
 - [src/App.ts](https://github.com/123ishaTest/incremental-game-template/blob/master/src/App.ts)
