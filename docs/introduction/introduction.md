@@ -18,6 +18,8 @@ To gain the most out of this project, it is important to know what it is about e
 The idea is to copy some code seen here and apply it to your own project.
 You probably need to modify it a bit, especially if you don't use the exact same setup.
 
+I expect you to be familiar with web development, as well as TypeScript, as I won't take the time to explain these things.
+
 #### It is
 - A collection of useful scripts that will help you develop more quickly
 - Inspiration for how to implement features every game needs

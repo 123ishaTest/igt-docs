@@ -5,7 +5,21 @@ title: Roadmap
 
 This meta-page contains everything I'm still planning to add.
 Is there something missing you would like to see?
-Please open an Issue on [GitHub](!
+Please open an Issue on [GitHub](https://github.com/123ishaTest/incremental-game-template/issues)!
 
-#### Q: I think React is better than Vue
-A: Okay
+### Features
+
+- [ ] Wallet
+- [ ] Settings
+- [ ] Statistics
+- [ ] Achievements
+- [ ] Dialog
+
+### Tools
+- [ ] Requirements
+- [ ] Saving
+- [ ] Probability
+- [ ] DropTables
+- [ ] Upgrades
+  - [ ] ExpUpgrades
+- [ ] CloudSaving
