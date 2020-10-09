@@ -16,8 +16,8 @@
       "label": "Features",
       "collapsed": false,
       "items": [
-        "features/settings",
-        "features/wallet"
+        "features/wallet",
+        "features/settings"
       ]
     },
     {

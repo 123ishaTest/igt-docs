@@ -1,6 +1,6 @@
 module.exports = {
-    title: 'Incremental Game Template',
-    tagline: 'A collection of useful scripts to help you develop incremental games!',
+    title: 'Incremental Game Template (Work In Progress)',
+    tagline: 'A collection of useful scripts to help you develop incremental games',
     url: 'https://your-docusaurus-test-site.com',
     baseUrl: '/',
     onBrokenLinks: 'throw',
@@ -32,7 +32,7 @@ module.exports = {
                 },
                 {to: 'blog', label: 'Blog', position: 'left'},
                 {
-                    href: 'https://github.com/Ishadijcks/vue-incremental-game-template',
+                    href: 'https://github.com/Ishadijcks/incremental-game-template',
                     label: 'GitHub',
                     position: 'right',
                 },
@@ -70,7 +70,7 @@ module.exports = {
                         },
                         {
                             label: 'GitHub',
-                            href: 'https://github.com/Ishadijcks/vue-incremental-game-template',
+                            href: 'https://github.com/Ishadijcks/incremental-game-template',
                         },
                     ],
                 },
