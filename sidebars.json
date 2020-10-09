@@ -6,7 +6,9 @@
       "collapsed": false,
       "items": [
         "introduction/introduction",
-        "introduction/project-structure"
+        "introduction/project-structure",
+        "introduction/launch-behaviour",
+        "introduction/game-states"
       ]
     },
     {
