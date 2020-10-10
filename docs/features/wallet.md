@@ -182,7 +182,4 @@ Nothing yet...
 -->
 
 ## See also 
-<!--- Any links to the GitHub or docs that might be relevant
-- One
-- Another
--->
+- [src/ig-template/features/wallet](https://github.com/123ishaTest/incremental-game-template/tree/master/src/ig-template/features/wallet)
