@@ -4,7 +4,7 @@ This website is built using [Docusaurus 2](https://v2.docusaurus.io/), a modern 
 
 Now that is their default README text, but it's a pretty good tool, so they earned it.
 
-Please visit the actual Docs at [TODO(@Isha) add a link once hosted]()
+[Please visit the actual Docs at](https://123ishatest.github.io/incremental-game-template-website/blog)
 
 ## Installation
 

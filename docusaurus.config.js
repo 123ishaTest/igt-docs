@@ -1,12 +1,12 @@
 module.exports = {
     title: 'Incremental Game Template (Work In Progress)',
     tagline: 'A collection of useful scripts to help you develop incremental games',
-    url: 'https://your-docusaurus-test-site.com',
-    baseUrl: '/',
+    url: 'https://123ishatest.github.io',
+    baseUrl: '/incremental-game-template-website/',
     onBrokenLinks: 'throw',
     favicon: 'img/favicon.ico',
     organizationName: '123ishaTest',
-    projectName: 'Incremental Game Template',
+    projectName: 'incremental-game-template-website',
     themeConfig: {
         prism: {
             theme: require('prism-react-renderer/themes/dracula'),
