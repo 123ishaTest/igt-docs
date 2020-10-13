@@ -8,6 +8,9 @@ title: Feature Template
 ## Requirements
 <!-- Everything that is needed for this feature to work -->
 
+## Usage
+<!--- Example script that displays most of the functionality -->
+
 ## Implementation
 <!--- Implementation details -->
 

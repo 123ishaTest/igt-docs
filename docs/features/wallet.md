@@ -18,6 +18,27 @@ It should also be able to check if the player can afford something or not.
 - Easily extendable with more currencies
 - Save & Load
 
+## Usage
+```ts
+const wallet = new Wallet([CurrencyType.Money]);
+
+wallet.gainCurrency(new Currency(10, CurrencyType.Money));
+console.log(wallet.getAmount(CurrencyType.Money)); // 10
+
+wallet.setCurrencyMultiplier(2, CurrencyType.Money);
+wallet.gainCurrency(new Currency(10, CurrencyType.Money));
+console.log(wallet.getAmount(CurrencyType.Money)); // 30
+console.log(wallet.hasCurrency(new Currency(30, CurrencyType.Money))); // true
+
+const couldAfford31Money = wallet.payIfPossible(new Currency(31, CurrencyType.Money));
+console.log(couldAfford31Money); // false
+
+const couldAfford25Money = wallet.payIfPossible(new Currency(25, CurrencyType.Money));
+console.log(couldAfford25Money); // true
+
+console.log(wallet.getAmount(CurrencyType.Money)); // 5
+```
+
 ## Implementation
 <!--- Implementation details -->
 To avoid making typos regarding currencies, we declare an enum `CurrencyType`
