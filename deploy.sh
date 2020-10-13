@@ -17,3 +17,5 @@ git commit -m 'deploy'
 # if you are deploying to https://<USERNAME>.github.io/<REPO>
 git push -f git@github.com:123ishaTest/incremental-game-template-website.git master:gh-pages
 cd -
+
+rm -rf ./build
