@@ -14,8 +14,12 @@ export class App {
 
     static start(): void {
         // Create all feature objects and add them to the game
-        this.game = new Game(/* Whatever features your game has */);
-
+        this.game = new Game(
+            {
+                wallet: new Wallet([CurrencyType.Money, CurrencyType.Secondary]),
+                /* Whatever features your game has */
+            }
+        );
         // All features now exist and can subscribe to each others events
         this.game.initialize();
 
