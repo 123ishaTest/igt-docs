@@ -35,3 +35,13 @@ I expect you to be familiar with web development, as well as TypeScript, as I wo
 I am by no means a programming expert. It is a fun hobby that I picked up while studying Computer Science.
 Many, many choices in this template are made arbitrarily and might not be the optimal way to do things.
 Feel free to contact me if you have some good ideas :)
+
+Here are some of my opinions
+
+- I like to overengineer tools.
+- Enums are very nice. Especially string enums. I use them as much as possible to refer to objects.
+- JS getters are useful if a method perform very little logic and should be treated as an attribute.
+- JS setters are very confusing.
+- There should be absolutely no presentation logic mixed with game logic.
+- Features presented here should not depend on each other. If they have to, this dependency should be injected.
+
