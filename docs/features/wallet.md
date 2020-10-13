@@ -181,7 +181,7 @@ It's up to you!
 #### onCurrencyGain
 Emitted whenever a currency is gained.
 ```ts
-App.game.wallet.onCurrencyGain.subscribe(currency => {
+App.game.features.wallet.onCurrencyGain.subscribe(currency => {
     console.log("We gained", currency.amount, currency.type);
 });
 ```
