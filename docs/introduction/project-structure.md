@@ -8,7 +8,8 @@ This page will explain the layout of the project. It explains some terminology a
 ## Project Structure
 The global static root object is called `App`.
 When it is started, it creates an instance of `Game` where you can inject different Features.
-This means that all features are accessible with `App.game.<feature>`.
+This means that all features are accessible with `App.game.features.<feature>`.
+During the [initialization](launch-behaviour.md) of a feature, all features are passed to the initialization method. 
 
 
 ## Terminology
