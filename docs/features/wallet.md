@@ -11,6 +11,7 @@ It should also be able to check if the player can afford something or not.
 ## Requirements
 <!-- Everything that is needed for this feature to work -->
 - Store currencies
+- Select which currencies can be stored
 - Check if the player can afford something
 - Emit an event when currency is gained
 - Apply currency multipliers if applicable
@@ -57,10 +58,14 @@ export class Currency {
 }
 ```
 
-And the `Wallet` has to deal with storing the currencies
+The `Wallet` has to deal with storing the currencies, and check if they are valid
 
 ```ts
 export class Wallet extends Feature {
+    private _currencies: Record<CurrencyType, number> = {} as Record<CurrencyType, number>
+    private _multipliers: Record<CurrencyType, number> = {} as Record<CurrencyType, number>
+    private _onCurrencyGain = new SimpleEventDispatcher<Currency>();
+    private readonly _supportedCurrencies: CurrencyType[];
 
     /**
      * Gain the specified currency and apply the global multiplier
@@ -68,7 +73,7 @@ export class Wallet extends Feature {
     public gainCurrency(currency: Currency): void {
         currency.multiply(this.getCurrencyMultiplier(currency.type));
 
-        if (!currency.isValid()) {
+        if (!currency.isValid() || !this.supportsCurrencyType(currency.type)) {
             console.warn(`Could not add currency ${currency.toString()}`);
             return;
         }
@@ -77,7 +82,13 @@ export class Wallet extends Feature {
         this._currencies[currency.type] += currency.amount;
     }
 
+    /**
+     * Return true if the currency is valid and the player has the specified amount.
+     */
     public hasCurrency(currency: Currency): boolean {
+        if (!this.supportsCurrencyType(currency.type)) {
+            return false;
+        }
         return this._currencies[currency.type] >= currency.amount;
     }
 
@@ -86,8 +97,8 @@ export class Wallet extends Feature {
      * IMPORTANT: This method does not care if amounts go negative
      * @param currency
      */
-    public loseCurrency(currency: Currency) {
-        if (!currency.isValid()) {
+    public loseCurrency(currency: Currency): void {
+        if (!currency.isValid() || !this.supportsCurrencyType(currency.type)) {
             console.warn(`Could not lose currency ${currency.toString()}`);
             return;
         }
@@ -107,6 +118,7 @@ export class Wallet extends Feature {
         }
         return false;
     }
+
 }
 
 ```
