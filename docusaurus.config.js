@@ -9,7 +9,7 @@ module.exports = {
     projectName: 'incremental-game-template-website',
     themeConfig: {
         prism: {
-            theme: require('prism-react-renderer/themes/dracula'),
+            theme: require('prism-react-renderer/themes/oceanicNext'),
         },
         navbar: {
             title: 'Incremental Game Template',
