@@ -21,7 +21,15 @@
       ]
     },
     {
-    "type": "category",
+      "type": "category",
+      "label": "Tools",
+      "collapsed": false,
+      "items": [
+        "tools/requirements"
+      ]
+    },
+    {
+      "type": "category",
       "label": "Other",
       "collapsed": false,
       "items": [

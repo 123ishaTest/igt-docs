@@ -23,26 +23,26 @@ It should also be able to check if the player can afford something or not.
 const wallet = new Wallet([CurrencyType.Money]);
 
 wallet.gainCurrency(new Currency(10, CurrencyType.Money));
-console.log(wallet.getAmount(CurrencyType.Money)); // 10
+console.log(wallet.money); // 10
 
 wallet.setCurrencyMultiplier(2, CurrencyType.Money);
 wallet.gainCurrency(new Currency(10, CurrencyType.Money));
-console.log(wallet.getAmount(CurrencyType.Money)); // 30
+console.log(wallet.money); // 30
 console.log(wallet.hasCurrency(new Currency(30, CurrencyType.Money))); // true
 
-const couldAfford31Money = wallet.payIfPossible(new Currency(31, CurrencyType.Money));
-console.log(couldAfford31Money); // false
+let couldAfford = wallet.payIfPossible(new Currency(31, CurrencyType.Money));
+console.log(couldAfford); // false
 
-const couldAfford25Money = wallet.payIfPossible(new Currency(25, CurrencyType.Money));
-console.log(couldAfford25Money); // true
+couldAfford = wallet.payIfPossible(new Currency(25, CurrencyType.Money));
+console.log(couldAfford); // true
 
-console.log(wallet.getAmount(CurrencyType.Money)); // 5
+console.log(wallet.money); // 5
 ```
 
 ## Implementation
 <!--- Implementation details -->
 To avoid making typos regarding currencies, we declare an enum `CurrencyType`
-```ts
+```ts title="src/ig-template/features/wallet/CurrencyType.ts"
 export enum CurrencyType {
     Money = "Money",
     Secondary = "Secondary",
@@ -50,7 +50,7 @@ export enum CurrencyType {
 ```
 
 `Currency` then simply becomes
-```ts
+```ts title="src/ig-template/features/wallet/Currency.ts"
 export class Currency {
     amount: number;
     type: CurrencyType;
@@ -81,7 +81,7 @@ export class Currency {
 
 The `Wallet` has to deal with storing the currencies, and check if they are valid
 
-```ts
+```ts title="src/ig-template/features/wallet/Wallet.ts"
 export class Wallet extends Feature {
     private _currencies: Record<CurrencyType, number> = {} as Record<CurrencyType, number>
     private _multipliers: Record<CurrencyType, number> = {} as Record<CurrencyType, number>
@@ -151,7 +151,7 @@ If a `Feature` changes a multiplier (by for example buying an upgrade),
 it needs to trigger a recalculation by emitting the `onCurrencyMultiplierChange` event.
 `App.game` will then recalculate this multiplier and update the `Wallet`.
 
-```ts
+```ts title="src/ig-template/features/wallet/Wallet.ts"
 export class Wallet extends Feature {
     private _multipliers: Record<CurrencyType, number> = {} as Record<CurrencyType, number>
 
