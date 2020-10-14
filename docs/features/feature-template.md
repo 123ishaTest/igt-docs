@@ -17,7 +17,10 @@ title: Feature Template
 #### Events
 <!--- Events this feature emits -->
 
-
+## TODO
+<!---
+Nothing yet...
+-->
 
 ## See also 
 <!--- Any links to the GitHub or docs that might be relevant
