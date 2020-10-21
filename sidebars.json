@@ -25,7 +25,8 @@
       "label": "Tools",
       "collapsed": false,
       "items": [
-        "tools/requirements"
+        "tools/requirements",
+        "tools/hotkeys"
       ]
     },
     {
