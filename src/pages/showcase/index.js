@@ -5,7 +5,7 @@
  * LICENSE file in the root directory of this source tree.
  */
 
-import React, {useEffect} from 'react';
+import React, from 'react';
 
 import Image from '@theme/IdealImage';
 import Layout from '@theme/Layout';
@@ -24,12 +24,11 @@ function Index() {
                 <div className="text--center margin-bottom--xl">
                     <h1>{TITLE}</h1>
                     <p>{DESCRIPTION}</p>
-                    <p>Is your game missing?
-                        <a
-                            href="https://github.com/123ishaTest/incremental-game-template-website/issues"
-                            target="_blank">
-                            Let me know!
-                        </a>
+                    <p>Is your game missing? <a
+                        href="https://github.com/123ishaTest/incremental-game-template-website/issues"
+                        target="_blank">
+                        Let me know!
+                    </a>
                     </p>
                 </div>
                 <div className="row">
