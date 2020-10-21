@@ -9,14 +9,16 @@ Please open an Issue on [GitHub](https://github.com/123ishaTest/incremental-game
 
 ### Features
 
-- [ ] Wallet
-- [ ] Settings
+- [x] Wallet
+- [x] Settings
 - [ ] Statistics
 - [ ] Achievements
 - [ ] Dialog
 
 ### Tools
-- [ ] Requirements
+- [x] Requirements
+- [x] Hotkeys
+  - [ ] Allow players to set their own hotkeys
 - [ ] Saving
 - [ ] Probability
 - [ ] DropTables
