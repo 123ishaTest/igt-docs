@@ -26,6 +26,7 @@
       "collapsed": false,
       "items": [
         "tools/requirements",
+        "tools/exp-level",
         "tools/hotkeys",
         "tools/probability"
       ]
