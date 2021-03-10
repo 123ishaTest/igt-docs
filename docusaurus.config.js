@@ -56,7 +56,7 @@ module.exports = {
                     items: [
                         {
                             label: 'Discord',
-                            href: 'https://discordapp.com/invite/doeseverythingneedadiscordthesedays?',
+                            href: 'https://discord.gg/zTPZTB7MNn',
                         },
 
                     ],
