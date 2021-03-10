@@ -1,5 +1,13 @@
 const games = [
     {
+        title: 'Card Quest',
+        description: 'A Deck-building incremental game created for the r/incremental_games 2021 jam!',
+        preview: require('./showcase/card-quest.png'),
+        website: 'https://ishad.itch.io/card-quest',
+        source: 'https://github.com/123ishaTest/CardQuest',
+        pinned: false,
+    },
+    {
         title: 'TimeHop',
         description: 'A 30 minute time travel incremental created for Ludum Dare 47!',
         preview: require('./showcase/timehop.png'),
