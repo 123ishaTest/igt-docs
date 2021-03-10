@@ -25,6 +25,7 @@
       "label": "Tools",
       "collapsed": false,
       "items": [
+        "tools/developer-panel",
         "tools/requirements",
         "tools/exp-level",
         "tools/hotkeys",
