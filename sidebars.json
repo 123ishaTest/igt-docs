@@ -19,6 +19,7 @@
         "features/wallet",
         "features/settings",
         "features/statistics",
+        "features/special-events",
         "features/achievements",
         "features/redeemable-codes"
       ]
