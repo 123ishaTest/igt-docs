@@ -1,5 +1,5 @@
 module.exports = {
-    title: 'Incremental Game Template (Work In Progress)',
+    title: 'Incremental Game Template',
     tagline: 'A collection of useful scripts to help you develop incremental games',
     url: 'https://123ishatest.github.io',
     baseUrl: '/incremental-game-template-website/',
