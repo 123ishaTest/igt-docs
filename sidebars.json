@@ -21,7 +21,9 @@
         "features/statistics",
         "features/special-events",
         "features/achievements",
-        "features/redeemable-codes"
+        "features/redeemable-codes",
+        "features/inventory",
+        "features/item-list"
       ]
     },
     {
@@ -33,7 +35,8 @@
         "tools/requirements",
         "tools/exp-level",
         "tools/hotkeys",
-        "tools/probability"
+        "tools/probability",
+        "tools/items"
       ]
     },
     {

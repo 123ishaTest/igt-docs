@@ -16,6 +16,13 @@ title: Feature Template
 
 #### Events
 <!--- Events this feature emits -->
+#### onSomething
+Emitted whenever something happens.
+```ts
+App.game.features.feature.onSomething.subscribe(data => {
+    console.log("Something happened", data);
+});
+```
 
 ## TODO
 <!---
