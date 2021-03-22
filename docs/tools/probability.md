@@ -10,7 +10,7 @@ to be broken, is if it were broken everywhere in your game.
 
 ## Requirements
 
-- It should be complete, the developer should never have to user `Math.random()` in their own scripts
+- It should be complete, the developer should never have to use `Math.random()` in their own scripts
 - Support all basic operations
 - Support custom types. Any type should be able to be drawn from a distribution
 
