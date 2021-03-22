@@ -70,7 +70,8 @@ function Home() {
               )}
               to={useBaseUrl('docs/')}>
               Documentation
-            </Link>            <Link
+            </Link>
+            <Link
               className={clsx(
                 'button button--outline button--secondary button--lg',
                 styles.demo,
