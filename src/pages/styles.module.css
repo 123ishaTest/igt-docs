@@ -18,6 +18,15 @@
   }
 }
 
+.demo {
+  background-color: teal;
+  margin-left: 10px;
+}
+
+.demo:hover {
+    background-color: white;
+}
+
 .buttons {
   display: flex;
   align-items: center;

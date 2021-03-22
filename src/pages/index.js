@@ -69,7 +69,14 @@ function Home() {
                 styles.getStarted,
               )}
               to={useBaseUrl('docs/')}>
-              Get Started
+              Documentation
+            </Link>            <Link
+              className={clsx(
+                'button button--outline button--secondary button--lg',
+                styles.demo,
+              )}
+              to={"https://123ishatest.github.io/incremental-game-template"}>
+              Demo
             </Link>
           </div>
         </div>
