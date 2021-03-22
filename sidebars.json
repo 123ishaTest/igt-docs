@@ -36,6 +36,7 @@
         "tools/exp-level",
         "tools/hotkeys",
         "tools/probability",
+        "tools/actions",
         "tools/items"
       ]
     },
