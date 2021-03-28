@@ -22,6 +22,7 @@
         "features/special-events",
         "features/achievements",
         "features/redeemable-codes",
+        "features/key-items",
         "features/inventory",
         "features/item-list"
       ]
