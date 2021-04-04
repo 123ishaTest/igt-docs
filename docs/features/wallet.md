@@ -70,12 +70,6 @@ export class Currency {
         return this.amount > 0;
     }
 
-    // Math methods as TS does not support operator overloading
-    public add(amount: number) {
-        this.amount += amount;
-    }
-
-    // Other math methods omitted
 }
 ```
 
