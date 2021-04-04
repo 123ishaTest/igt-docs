@@ -35,4 +35,4 @@ export class ExampleFeature extends UpgradesFeature {
 
 ## See also 
 - [src/ig-template/tools/boosters/Booster.ts](https://github.com/123ishaTest/incremental-game-template/tree/master/src/ig-template/tools/boosters/Booster.ts)
-- [src/ig-template/tools/boosters/BoosterTier.ts](https://github.com/123ishaTest/incremental-game-template/tree/master/src/ig-template/tools/booster/BoosterTier.ts)
+- [src/ig-template/tools/boosters/BoosterTier.ts](https://github.com/123ishaTest/incremental-game-template/tree/master/src/ig-template/tools/boosters/BoosterTier.ts)
