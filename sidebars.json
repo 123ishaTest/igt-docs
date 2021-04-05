@@ -36,6 +36,7 @@
         "tools/requirements",
         "tools/exp-level",
         "tools/boosters",
+        "tools/loot-tables",
         "tools/hotkeys",
         "tools/probability",
         "tools/actions",
