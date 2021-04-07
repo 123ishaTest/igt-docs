@@ -1,5 +1,13 @@
 const games = [
     {
+        title: 'Stable Jewels',
+        description: 'A silly april fools game that was quickly thrown together.',
+        preview: require('./showcase/stable-jewels.png'),
+        website: 'https://123ishatest.github.io/stable-jewels',
+        source: 'https://github.com/123ishaTest/stable-jewels',
+        pinned: false,
+    },
+    {
         title: 'Card Quest',
         description: 'A Deck-building incremental game created for the r/incremental_games 2021 jam!',
         preview: require('./showcase/card-quest.png'),
