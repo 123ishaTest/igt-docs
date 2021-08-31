@@ -33,4 +33,4 @@ export class App {
 ``` 
 
 ## See also
-- [src/App.ts](https://github.com/123ishaTest/incremental-game-template/blob/master/src/App.ts)
+- [src/App.ts](https://github.com/123ishaTest/igt-library/blob/master/src/App.ts)

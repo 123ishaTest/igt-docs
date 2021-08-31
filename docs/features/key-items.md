@@ -12,7 +12,7 @@ Maybe a Rusty Key that grants access to a location, or a Quantum Spanner which b
 ## Usage
 
 ```ts
-const keyItems = new KeyItems();
+const keyItems = new IgtKeyItems();
 keyItems.registerKeyItem(new KeyItem(KeyItemId.Item1, "Item 1", "Grants access to something", "Maybe look over there?", "logo.png"))
 keyItem.hasItem(KeyItemId.Item1); // False
 keyItem.gainKeyItem(KeyItemId.Item1);
@@ -31,5 +31,5 @@ App.game.features.keyItems.onKeyItemGain.subscribe(keyItem => {
 ```
 
 ## See also 
-- [src/ig-template/features/key-items/KeyItems.ts](https://github.com/123ishaTest/incremental-game-template/tree/master/src/ig-template/features/key-items/KeyItems.ts)
-- [src/ig-template/features/key-items/KeyItem.ts](https://github.com/123ishaTest/incremental-game-template/tree/master/src/ig-template/features/key-items/KeyItem.ts)
+- [src/ig-template/features/key-items/IgtKeyItems.ts](https://github.com/123ishaTest/igt-library/tree/master/src/ig-template/features/key-items/IgtKeyItems.ts)
+- [src/ig-template/features/key-items/KeyItem.ts](https://github.com/123ishaTest/igt-library/tree/master/src/ig-template/features/key-items/KeyItem.ts)

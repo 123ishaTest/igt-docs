@@ -44,6 +44,6 @@ Redeemed codes are saved as a list of keys, so people can't claim them twice aft
 
 
 ## See also 
-- [src/ig-template/features/codes](https://github.com/123ishaTest/incremental-game-template/tree/master/src/ig-template/features/codes)
-- [src/ig-template/features/codes/RedeemableCodes.ts](https://github.com/123ishaTest/incremental-game-template/tree/master/src/ig-template/features/codes/RedeemableCodes.ts)
-- [src/ig-template/features/codes/RedeemableCode.ts](https://github.com/123ishaTest/incremental-game-template/tree/master/src/ig-template/features/codes/RedeemableCode.ts)
+- [src/ig-template/features/codes](https://github.com/123ishaTest/igt-library/tree/master/src/ig-template/features/codes)
+- [src/ig-template/features/codes/IgtRedeemableCodes.ts](https://github.com/123ishaTest/igt-library/tree/master/src/ig-template/features/codes/IgtRedeemableCodes.ts)
+- [src/ig-template/features/codes/RedeemableCode.ts](https://github.com/123ishaTest/igt-library/tree/master/src/ig-template/features/codes/RedeemableCode.ts)

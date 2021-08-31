@@ -20,7 +20,7 @@ It should also be able to check if the player can afford something or not.
 
 ## Usage
 ```ts
-const wallet = new Wallet([CurrencyType.Money]);
+const wallet = new IgtWallet([CurrencyType.Money]);
 
 wallet.gainCurrency(new Currency(10, CurrencyType.Money));
 console.log(wallet.money); // 10
@@ -209,4 +209,4 @@ Nothing yet...
 -->
 
 ## See also 
-- [src/ig-template/features/wallet](https://github.com/123ishaTest/incremental-game-template/tree/master/src/ig-template/features/wallet)
+- [src/ig-template/features/wallet](https://github.com/123ishaTest/igt-library/tree/master/src/ig-template/features/wallet)

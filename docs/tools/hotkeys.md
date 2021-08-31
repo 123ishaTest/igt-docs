@@ -152,7 +152,7 @@ export class HotKeys {
 
 ## See also 
 - [Mousetrap documentation](https://craig.is/killing/mice)
-- [src/ig-template/tools/hotkeys/](https://github.com/123ishaTest/incremental-game-template/blob/master/src/ig-template/tools/hotkeys)
-- [src/ig-template/tools/hotkeys/HotKeys.ts](https://github.com/123ishaTest/incremental-game-template/blob/master/src/ig-template/tools/hotkeys/HotKeys.ts)
-- [src/ig-template/tools/hotkeys/KeyBind.ts](https://github.com/123ishaTest/incremental-game-template/blob/master/src/ig-template/tools/hotkeys/KeyBind.ts)
-- [src/ig-template/tools/hotkeys/CustomConditionKeyBind.ts](https://github.com/123ishaTest/incremental-game-template/blob/master/src/ig-template/tools/hotkeys/CustomConditionKeyBind.ts)
+- [src/ig-template/tools/hotkeys/](https://github.com/123ishaTest/igt-library/blob/master/src/ig-template/tools/hotkeys)
+- [src/ig-template/tools/hotkeys/HotKeys.ts](https://github.com/123ishaTest/igt-library/blob/master/src/ig-template/tools/hotkeys/HotKeys.ts)
+- [src/ig-template/tools/hotkeys/KeyBind.ts](https://github.com/123ishaTest/igt-library/blob/master/src/ig-template/tools/hotkeys/KeyBind.ts)
+- [src/ig-template/tools/hotkeys/CustomConditionKeyBind.ts](https://github.com/123ishaTest/igt-library/blob/master/src/ig-template/tools/hotkeys/CustomConditionKeyBind.ts)

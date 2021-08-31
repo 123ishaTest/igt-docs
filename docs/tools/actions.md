@@ -57,6 +57,5 @@ App.game.features.feature.action.onCompletion.subscribe(action => {
 ```
 
 ## See also 
-- [src/ig-template/tools/actions](https://github.com/123ishaTest/incremental-game-template/tree/master/src/ig-template/tools/actions)
-- [src/ig-template/tools/actions/AbstractAction.ts](https://github.com/123ishaTest/incremental-game-template/tree/master/src/ig-template/tools/actions/AbstractAction.ts)
-- [src/ig-template/tools/actions/GainItemAction.ts](https://github.com/123ishaTest/incremental-game-template/tree/master/src/ig-template/tools/actions/GainItemAction.ts)
+- [src/ig-template/tools/actions](https://github.com/123ishaTest/igt-library/tree/master/src/ig-template/tools/actions)
+- [src/ig-template/tools/actions/IgtAction.ts](https://github.com/123ishaTest/igt-library/tree/master/src/ig-template/tools/actions/IgtAction.ts)

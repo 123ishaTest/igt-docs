@@ -111,6 +111,6 @@ export class RangeSetting extends Setting<number> {
 
 
 ## See also 
-- [src/ig-template/features/settings](https://github.com/123ishaTest/incremental-game-template/tree/master/src/ig-template/features/settings)
-- [src/ig-template/features/settings/Setting.ts](https://github.com/123ishaTest/incremental-game-template/tree/master/src/ig-template/features/settings/Setting.ts)
-- [src/ig-template/features/settings/BooleanSetting.ts](https://github.com/123ishaTest/incremental-game-template/tree/master/src/ig-template/features/settings/BooleanSetting.ts)
+- [src/ig-template/features/settings](https://github.com/123ishaTest/igt-library/tree/master/src/ig-template/features/settings)
+- [src/ig-template/features/settings/Setting.ts](https://github.com/123ishaTest/igt-library/tree/master/src/ig-template/features/settings/Setting.ts)
+- [src/ig-template/features/settings/BooleanSetting.ts](https://github.com/123ishaTest/igt-library/tree/master/src/ig-template/features/settings/BooleanSetting.ts)

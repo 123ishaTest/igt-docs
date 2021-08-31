@@ -20,7 +20,7 @@ Each `Feature` has a `getDeveloperPanelFields()` method that returns an empty li
 Override this method with a list of fields, and they will show up in the Panel under the Features tab!
 
 ```ts
-export class Wallet extends Feature {
+export class IgtWallet extends Feature {
     money: number = 0;
     moneyMultiplier: number = 1;
 
@@ -49,4 +49,4 @@ export class Wallet extends Feature {
 ```
 
 ## See also 
-- [Available fields](https://github.com/123ishaTest/incremental-game-template/blob/master/src/ig-template/developer-panel/fields/)
+- [Available fields](https://github.com/123ishaTest/igt-library/blob/master/src/ig-template/developer-panel/fields/)

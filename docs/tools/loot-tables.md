@@ -90,7 +90,7 @@ export class KeyItemLoot extends AbstractLoot {
 ```
 
 ## See also
-- [src/ig-template/tools/loot-tables/LootTable.ts](https://github.com/123ishaTest/incremental-game-template/blob/master/src/ig-template/tools/loot-tables/LootTable.ts)
-- [src/ig-template/tools/loot-tables/rewards/AbstractLoot.ts](https://github.com/123ishaTest/incremental-game-template/blob/master/src/ig-template/tools/loot-tables/rewards/AbstractLoot.ts)
-- [src/ig-template/tools/loot-tables/entries/AbstractLootEntry.ts](https://github.com/123ishaTest/incremental-game-template/blob/master/src/ig-template/tools/loot-tables/entries/AbstractLootEntry.ts)
-- [src/ig-template/tools/loot-tables/entries/TableEntry.ts](https://github.com/123ishaTest/incremental-game-template/blob/master/src/ig-template/tools/loot-tables/entries/TableEntry.ts)
+- [src/ig-template/tools/loot-tables/LootTable.ts](https://github.com/123ishaTest/igt-library/blob/master/src/ig-template/tools/loot-tables/LootTable.ts)
+- [src/ig-template/tools/loot-tables/rewards/IgtLoot.ts](https://github.com/123ishaTest/igt-library/blob/master/src/ig-template/tools/loot-tables/rewards/IgtLoot.ts)
+- [src/ig-template/tools/loot-tables/entries/IgtLootEntry.ts](https://github.com/123ishaTest/igt-library/blob/master/src/ig-template/tools/loot-tables/entries/IgtLootEntry.ts)
+- [src/ig-template/tools/loot-tables/entries/TableEntry.ts](https://github.com/123ishaTest/igt-library/blob/master/src/ig-template/tools/loot-tables/entries/TableEntry.ts)

@@ -8,14 +8,14 @@ If the player can see they have many rows of achievements left to complete, they
 
 
 ## Requirements
-- Make it easy to create an achievement based on a  [Statistic](./statistics.md)
+- Make it easy to create an achievement based on a [Statistic](./statistics.md)
 - Custom achievements that can be manually completed
 - Title, description and image, to add some flavour to achievements
 
 ## Usage
 
 ```ts
-export class Achievements extends Feature {
+export class IgtAchievements extends Feature {
     initialize(features: Features): void {
         // You can base achievements on statistics
         this.registerAchievement(
@@ -44,4 +44,4 @@ App.game.features.achievements.onUnlock.subscribe(achievement => {
 ```
 
 ## See also 
-- [src/ig-template/features/achievements](https://github.com/123ishaTest/incremental-game-template/tree/master/src/ig-template/features/achievements)
+- [src/ig-template/features/achievements](https://github.com/123ishaTest/igt-library/tree/master/src/ig-template/features/achievements)

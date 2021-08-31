@@ -16,5 +16,5 @@ export enum GameState {
 ```
 
 ## See also
-- [src/ig-template/Game.ts](https://github.com/123ishaTest/incremental-game-template/blob/master/src/ig-template/Game.ts)
-- [src/ig-template/GameStates.ts](https://github.com/123ishaTest/incremental-game-template/blob/master/src/ig-template/GameState.ts)
+- [src/ig-template/Game.ts](https://github.com/123ishaTest/igt-library/blob/master/src/ig-template/Game.ts)
+- [src/ig-template/GameStates.ts](https://github.com/123ishaTest/igt-library/blob/master/src/ig-template/GameState.ts)

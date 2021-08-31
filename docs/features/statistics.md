@@ -16,7 +16,7 @@ They will also form the basis for most [Achievements](./achievements.md)
 ## Usage
 
 ```ts
-export class Statistics extends Feature {
+export class IgtStatistics extends Feature {
     public totalMoneyGained: NumberStatistic;
 
     initialize(features: Features): void {
@@ -36,4 +36,4 @@ export class Statistics extends Feature {
 ```
 
 ## See also 
-- [src/ig-template/features/statistics](https://github.com/123ishaTest/incremental-game-template/tree/master/src/ig-template/features/statistics)
+- [src/ig-template/features/statistics](https://github.com/123ishaTest/igt-library/tree/master/src/ig-template/features/statistics)

@@ -63,7 +63,7 @@ export class CurrencyRequirement extends Requirement {
 ```
 Extend `Requirement` with whatever you like! I expect your game will have a ton of custom requirements.
 ## See also 
-- [src/ig-template/tools/requirements/](https://github.com/123ishaTest/incremental-game-template/blob/master/src/ig-template/tools/requirements)
-- [src/ig-template/tools/requirements/Requirement.ts](https://github.com/123ishaTest/incremental-game-template/blob/master/src/ig-template/tools/requirements/Requirement.ts)
-- [src/ig-template/tools/requirements/CustomRequirement.ts](https://github.com/123ishaTest/incremental-game-template/blob/master/src/ig-template/tools/requirements/CustomRequirement.ts)
-- [src/ig-template/features/wallet/CurrencyRequirement.ts](https://github.com/123ishaTest/incremental-game-template/blob/master/src/ig-template/features/wallet/CurrencyRequirement.ts)
+- [src/ig-template/tools/requirements/](https://github.com/123ishaTest/igt-library/blob/master/src/ig-template/tools/requirements)
+- [src/ig-template/tools/requirements/Requirement.ts](https://github.com/123ishaTest/igt-library/blob/master/src/ig-template/tools/requirements/Requirement.ts)
+- [src/ig-template/tools/requirements/CustomRequirement.ts](https://github.com/123ishaTest/igt-library/blob/master/src/ig-template/tools/requirements/CustomRequirement.ts)
+- [src/ig-template/features/wallet/CurrencyRequirement.ts](https://github.com/123ishaTest/igt-library/blob/master/src/ig-template/features/wallet/CurrencyRequirement.ts)

@@ -5,7 +5,7 @@ title: Roadmap
 
 This meta-page contains everything I'm still planning to add.
 Is there something missing you would like to see?
-Please open an Issue on [GitHub](https://github.com/123ishaTest/incremental-game-template/issues)!
+Please open an Issue on [GitHub](https://github.com/123ishaTest/igt-library/issues)!
 
 ### Features
 

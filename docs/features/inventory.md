@@ -49,5 +49,5 @@ App.game.features.inventory.onItemGain.subscribe((item, amount) => {
 ```
 
 ## See also
-- [src/ig-template/features/inventory/Inventory.ts](https://github.com/123ishaTest/incremental-game-template/blob/master/src/ig-template/features/inventory/Inventory.ts)
-- [src/ig-template/features/inventory/InventorySlot.ts](https://github.com/123ishaTest/incremental-game-template/blob/master/src/ig-template/features/inventory/InventorySlot.ts)
+- [src/ig-template/features/inventory/IgtInventory.ts](https://github.com/123ishaTest/igt-library/blob/master/src/ig-template/features/inventory/IgtInventory.ts)
+- [src/ig-template/features/inventory/InventorySlot.ts](https://github.com/123ishaTest/igt-library/blob/master/src/ig-template/features/inventory/InventorySlot.ts)

@@ -98,6 +98,6 @@ App.game.features.specialEvents.onEventEnd.subscribe(event => {
 
 ## See also
 
-- [src/ig-template/features/special-events/AbstractSpecialEvent.ts](https://github.com/123ishaTest/incremental-game-template/tree/master/src/ig-template/features/special-events/AbstractSpecialEvent.ts)
-- [src/ig-template/features/special-events/SpecialEvents.ts](https://github.com/123ishaTest/incremental-game-template/tree/master/src/ig-template/features/special-events/SpecialEvents.ts)
-- [src/ig-template/features/special-events/WeeklySpecialEvent.ts](https://github.com/123ishaTest/incremental-game-template/tree/master/src/ig-template/features/special-events/WeeklySpecialEvent.ts)
+- [src/ig-template/features/special-events/AbstractSpecialEvent.ts](https://github.com/123ishaTest/igt-library/tree/master/src/ig-template/features/special-events/AbstractSpecialEvent.ts)
+- [src/ig-template/features/special-events/IgtSpecialEvents.ts](https://github.com/123ishaTest/igt-library/tree/master/src/ig-template/features/special-events/IgtSpecialEvents.ts)
+- [src/ig-template/features/special-events/WeeklySpecialEvent.ts](https://github.com/123ishaTest/igt-library/tree/master/src/ig-template/features/special-events/WeeklySpecialEvent.ts)
