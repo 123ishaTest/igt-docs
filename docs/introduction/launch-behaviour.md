@@ -10,13 +10,13 @@ When the game starts, the `Feature` methods will be run in the following order:
 ```ts
 export class App {
 
-    static game: Game;
+    static game: IgtGame;
 
     static start(): void {
         // Create all feature objects and add them to the game
         this.game = new Game(
             {
-                wallet: new Wallet([CurrencyType.Money, CurrencyType.Secondary]),
+                wallet: new IgtWallet([CurrencyType.Money, CurrencyType.Secondary]),
                 /* Whatever features your game has */
             }
         );

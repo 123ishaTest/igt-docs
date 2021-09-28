@@ -8,6 +8,6 @@ author_image_url: https://avatars3.githubusercontent.com/u/9715314?s=460&u=3448b
 
 Hi all,
 
-IGT is now converted to a library
+IGT is now converted to a library. Using it is a bit different, but I'm creating a demo project soon!
 
 \- Isha

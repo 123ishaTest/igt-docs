@@ -15,21 +15,29 @@ This project aims to develop the 'final' version of these features, such that ev
 
 ## What is this project
 To gain the most out of this project, it is important to know what it is about exactly.
-The idea is to copy some code seen here and apply it to your own project.
-You probably need to modify it a bit, especially if you don't use the exact same setup.
+It is a library of useful scripts that work well together, combined into a single project.
+You can consume this library and extend some classes to have a working game very quickly.
+You can also manually copy snippets and apply them to your own project, with some modifications.
 
 I expect you to be familiar with web development, as well as TypeScript, as I won't take the time to explain these things.
 
 #### It is
 - A collection of useful scripts that will help you develop more quickly
+- A library you can easily integrate with your favourite frontend framework
 - Inspiration for how to implement features every game needs
 - Pretty neat
 
 #### It is not
 - A tutorial on how to develop webgames
-- A game engine or a library
+- A game engine
 - A guarantee for a good game. You still need to create interesting mechanics yourself :)
 
+## Repositories
+The IGT consists of 4 repositories:
+
+- [igt-library](https://github.com/123ishaTest/igt-library): An npm package that contains all features and game logic
+- [igt-docs](https://github.com/123ishaTest/igt-docs) This repo! The documentation for the entire project
+- [igt-vue](https://github.com/123ishaTest/igt-library) This repo! The documentation for the entire project
 
 ## Personal Preferences
 I am by no means a programming expert. It is a fun hobby that I picked up while studying Computer Science.
@@ -43,5 +51,5 @@ Here are some of my opinions
 - JS getters are useful if a method perform very little logic and should be treated as an attribute.
 - JS setters are very confusing.
 - There should be absolutely no presentation logic mixed with game logic.
-- Features presented here should not depend on each other. If they have to, this dependency should be injected.
+- Features presented here should not depend on each other if possible. If they have to, this dependency should be injected.
 
