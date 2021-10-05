@@ -1,6 +1,9 @@
 module.exports = {
   "demo": [
-    "introduction"
+    "introduction",
+    "setting-up",
+    "project-structure",
+    "first-changes",
   ],
 }
 
