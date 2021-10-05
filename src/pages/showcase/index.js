@@ -25,7 +25,7 @@ function Index() {
                     <h1>{TITLE}</h1>
                     <p>{DESCRIPTION}</p>
                     <p>Is your game missing? <a
-                        href="https://github.com/123ishaTest/incremental-game-template-website/issues"
+                        href="https://github.com/123ishaTest/igt-docs/issues"
                         target="_blank">
                         Let me know!
                     </a>

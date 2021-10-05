@@ -2,11 +2,11 @@ module.exports = {
     title: 'Incremental Game Template',
     tagline: 'A collection of useful scripts to help you develop incremental games',
     url: 'https://123ishatest.github.io',
-    baseUrl: '/incremental-game-template-website/',
+    baseUrl: '/igt-docs/',
     onBrokenLinks: 'throw',
     favicon: 'img/favicon.ico',
     organizationName: '123ishaTest',
-    projectName: 'incremental-game-template-website',
+    projectName: 'igt-docs',
     themeConfig: {
         prism: {
             theme: require('prism-react-renderer/themes/oceanicNext'),
