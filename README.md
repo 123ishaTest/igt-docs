@@ -1,10 +1,10 @@
-# Incremental Game Template
+# igt-docs
 
 This website is built using [Docusaurus 2](https://v2.docusaurus.io/), a modern static website generator.
 
 Now that is their default README text, but it's a pretty good tool, so they earned it.
 
-[Please visit the actual Docs here](https://123ishatest.github.io/incremental-game-template-website)
+[Please visit the actual Docs here](https://123ishatest.github.io/igt-docs)
 
 ## Installation
 
