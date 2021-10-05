@@ -20,8 +20,12 @@ module.exports = {
             items: [
                 {
                     to: 'docs/',
-                    activeBasePath: 'docs',
                     label: 'Docs',
+                    position: 'left',
+                },
+                {
+                    to: 'demo/',
+                    label: 'Demo',
                     position: 'left',
                 },
                 {
@@ -82,7 +86,11 @@ module.exports = {
         [
             '@docusaurus/preset-classic',
             {
-
+                docs: {
+                    routeBasePath: 'docs',
+                    path: 'docs',
+                    sidebarPath: require.resolve('./sidebars-docs.js'),
+                },
                 theme: {
                     customCss: require.resolve('./src/css/custom.css'),
                 },
@@ -92,6 +100,15 @@ module.exports = {
     plugins: [
         ['@docusaurus/plugin-ideal-image',
             {},
-        ]
+        ],
+        [
+            '@docusaurus/plugin-content-docs',
+            {
+                id: 'demo',
+                path: 'demo',
+                routeBasePath: 'demo',
+                sidebarPath: require.resolve('./sidebars-demo.js'),
+            },
+        ],
     ],
 };

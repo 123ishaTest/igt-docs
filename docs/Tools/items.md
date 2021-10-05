@@ -5,7 +5,7 @@ title: Items
 
 `Items` can be a big part of your game. If you're making an RPG-like game, all your weapons and ores can be implemented
 as items. You are able to create new items by extending the `AbstractItem` class, and it will work perfectly with
-the [Inventory](../features/inventory.md) and [ItemList](../features/item-list.md).
+the [Inventory](../Features/inventory.md) and [ItemList](../Features/item-list.md).
 
 ## Requirements
 

@@ -5,7 +5,7 @@ title: Loot Tables
 
 Loot Tables are very useful. You can use them for monster drop tables, opening card packs in a CCG,
 ~~or cash out and sell loot boxes~~. The `LootTable` allows you to combine different rewards.
-So you can gain a [Key Item](../features/key-items.md) or a [Currency](../features/wallet.md) from the same table.
+So you can gain a [Key Item](../Features/key-items.md) or a [Currency](../Features/wallet.md) from the same table.
 
 In the demo application, all `LootTable`s are store in a `Feature`.
 This is not strictly necessary, but it's the easiest way to inject features into them and reuse tables.
@@ -40,7 +40,7 @@ table.roll() // AbstractLoot[], already applied
 If we need to create a custom `Loot` type, we need to extend the `AbstractEntry`, which is a part of the table.
 And we have to extend the `AbstractLoot`, which is the actual reward that can be applied.
 
-In this example we will implement loot that gains a [Key Item](../features/key-items.md).
+In this example we will implement loot that gains a [Key Item](../Features/key-items.md).
 ```ts
 export class KeyItemEntry extends AbstractLootEntry {
     _keyItems: KeyItems;
