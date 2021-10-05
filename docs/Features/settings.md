@@ -13,7 +13,7 @@ From changing the layout to toggling the automation of a feature, a `Setting` is
 - Extendable with different types
 - Multiple choice and Range settings
 - Set a default value
-- Lock settings and even options behind [requirements](../tools/requirements.md)
+- Lock settings and even options behind [requirements](../Tools/requirements.md)
 - Save & Load
 
 ## Usage

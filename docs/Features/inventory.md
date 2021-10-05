@@ -3,7 +3,7 @@ id: inventory
 title: Inventory
 ---
 
-The `Inventory` is a known concept. It can keep track of [Items](../tools/items.md), and display them to the player.
+The `Inventory` is a known concept. It can keep track of [Items](../Tools/items.md), and display them to the player.
 It should also be able to check if you have enough items to perform certain actions.
 
 

@@ -3,7 +3,7 @@ id: item-list
 title: Item List
 ---
 
-The `ItemList` is a `Feature` that can supply other Features with [Items](../tools/items.md).
+The `ItemList` is a `Feature` that can supply other Features with [Items](../Tools/items.md).
 It is closely related to the [Inventory](./inventory.md).
 ## Requirements
 

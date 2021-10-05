@@ -6,7 +6,7 @@ title: Statistics
 Statistics are fun. Whether they track total money gained or times defeated, it is always interesting to view everything you've done in a game.
 The `Statistics` feature makes it easy to track any sort of statistic!
 
-`Statistics` can also be used for [Requirements](../tools/requirements.md).
+`Statistics` can also be used for [Requirements](../Tools/requirements.md).
 They will also form the basis for most [Achievements](./achievements.md)
 ## Requirements
 - Track numbers and arrays of numbers.
