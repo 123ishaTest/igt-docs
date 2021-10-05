@@ -36,8 +36,9 @@ I expect you to be familiar with web development, as well as TypeScript, as I wo
 The IGT consists of 4 repositories:
 
 - [igt-library](https://github.com/123ishaTest/igt-library): An npm package that contains all features and game logic
-- [igt-docs](https://github.com/123ishaTest/igt-docs) This repo! The documentation for the entire project
-- [igt-vue](https://github.com/123ishaTest/igt-library) This repo! The documentation for the entire project
+- [igt-docs](https://github.com/123ishaTest/igt-docs) You are here! The documentation for the entire project
+- [igt-vue](https://github.com/123ishaTest/igt-vue) A Vue application that consumes `igt-docs` and provides Vue components
+- [igt-demo](https://github.com/123ishaTest/igt-demo) A demo application/tutorial that takes `igt-vue` and builds a small game.
 
 ## Personal Preferences
 I am by no means a programming expert. It is a fun hobby that I picked up while studying Computer Science.
